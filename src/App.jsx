@@ -1,6 +1,6 @@
 import { Header, Footer, MovieGrid, MovieDetails } from "./layout"
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router'
+import { HashRouter as Router, Routes, Route } from 'react-router'
 
 
 function App() {
