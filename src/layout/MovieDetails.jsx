@@ -6,7 +6,7 @@ import { Preloader } from "../components/preloader";
 
 export function MovieDetails() {
     const {id} = useParams();
-    const navigate = useNavigate;
+    const navigate = useNavigate();
     const [movie, setMovie] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
